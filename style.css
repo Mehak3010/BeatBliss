@@ -258,3 +258,8 @@ nav ul li{
     opacity: 0;
     transition: opacity 0.4s ease-in;
 }
+
+.songlistplay .fa-play-circle,
+.songlistplay .fa-pause-circle {
+    padding-right: 10px;
+}
