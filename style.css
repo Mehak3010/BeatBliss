@@ -105,6 +105,10 @@ nav ul li{
     margin: 0 23px;
     border-radius: 34px;
 }
+.songItem.active {
+    background-color: #1db954;
+    color: white;
+}
 
 .timestamp{
     margin: 0 23px;
