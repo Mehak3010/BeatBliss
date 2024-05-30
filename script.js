@@ -120,3 +120,9 @@ document.getElementById('previous').addEventListener('click', () => {
     masterPlay.classList.add('fa-pause-circle');
     updateActiveSong();
 });
+document.getElementById('shuffle').addEventListener('click', () => {
+    songIndex = Math.floor(Math.random() * songs.length);
+    makeAllPlays();
+    songItems[songIndex].classList.add('active');
+    updateSongInfo(songIndex);
+});
