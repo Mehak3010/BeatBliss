@@ -148,4 +148,3 @@ const playFirstSong = () => {
     songItems[songIndex].classList.add('active');
     updateSongInfo(songIndex);
 };
-
