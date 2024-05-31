@@ -8,16 +8,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItemContainer = document.getElementsByClassName('songItemContainer')[0];
 
 let songs = [
-    {songName: "Astronaut In The Ocean - Masked Wolf", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Perfect - Ed Sheeran", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Shape Of You  - Ed Sheeran", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Let Me Love You - DJ Snake, Justin Bieber", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Believer - Imagine Dragons", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Sajni - Ram Sampath, Arijit Singh, Prashant Pandey", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Soulmate - Badshah, Arijit Singh", filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Naina - Badshah, Diljit Dosanjh, Raj Ranjodh", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
-    {songName: "O Mahi - Pritam, Arijit Singh, Irshad Kamil", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
-    {songName: "With You - AP Dhillon", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Song-1", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Song-2", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Song-3", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Song-4", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "Song-5", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Song-6", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Song-7", filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Song-8", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Song-9", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Song-10", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"},
 ];
 
 // Function to format duration in mm:ss format
@@ -146,3 +146,4 @@ const playFirstSong = () => {
     songItems[songIndex].classList.add('active');
     updateSongInfo(songIndex);
 };
+
